@@ -1,1 +1,4 @@
 hr.star-primary:after { background-color: transparent; }
+
+#nabizime .row { margin-top: 25px; margin-bottom: 25px; }
+.portfolio-item h3 { white-space: nowrap; }
