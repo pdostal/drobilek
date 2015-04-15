@@ -4,23 +4,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Ke stažení</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
-                {% endfor %}
+                <div class="col-sm-6 portfolio-item text-center">
+                    <span class="fa fa-file-text fa-5x"></span>
+                    <h3>Plná moc</h3>
+                </div>
+                <div class="col-sm-6 portfolio-item text-center">
+                    <span class="fa fa-file-text fa-5x"></span>
+                    <h3>Prohlášení o obalech</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item text-center">
+                    <span class="fa fa-file-text fa-5x"></span>
+                    <h3>Výpis OR</h3>
+                </div>
+                <div class="col-sm-6 portfolio-item text-center">
+                    <span class="fa fa-file-text fa-5x"></span>
+                    <h3>Poštovní zásilky</h3>
+                </div>
             </div>
         </div>
     </section>
