@@ -4,26 +4,21 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
+                        <h3>Kontaktujte nás</h3>
                         <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-		                    {% endfor %}
+                            <li><a href="mailto:" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a></li>
+                            <li><a href="//facebook.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a></li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>{{ site.title }}</h3>
+                        <p>U Továren 261/27</p>
+                        <p>102 00   Praha 10</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -32,7 +27,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        2015 &copy; <a href="mailto:pdostal@pdostal.cz/">Pavel Dostál</a>
                     </div>
                 </div>
             </div>

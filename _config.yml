@@ -11,21 +11,5 @@ color:
   secondary: 2c3e50
   secondary-dark: 233140
 
-footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
-
-social:
-  - title: facebook
-    url:
-
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
 markdown: kramdown
 permalink: pretty

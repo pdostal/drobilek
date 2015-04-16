@@ -6,3 +6,5 @@ hr.star-primary:after { background-color: transparent; }
 .portfolio-item h3 { white-space: nowrap; }
 
 #reference h3 { display: inline-block; border: 1px solid #000; border-radius: 25px; padding: 75px 25px 75px 25px; }
+
+.list-inline li { margin-right: 25px; }
