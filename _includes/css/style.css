@@ -5,6 +5,10 @@ hr.star-primary:after { background-color: transparent; }
 #ke_stazeni .row { margin-top: 35px; margin-bottom: 35px; }
 /*.portfolio-item h3 { white-space: nowrap; }*/
 
+#kontakt #mapa { height: 375px; }
+
+#kontakt .text-primary { margin-top: 10.5px; margin-bottom: 0px; }
+
 #reference h3 { padding: 75px 25px 75px 25px; }
 
 .list-inline li { margin-right: 25px; }
