@@ -1,7 +1,7 @@
 # Site settings
 title: VerkaDrobka s. r. o.
 email: your-email@domain.com
-url: "http://localhost:3001"
+url: "http://verkadrobka.cz"
 port: 3000
 host:
 description: Kompletní služby v oboru celní problematiky
