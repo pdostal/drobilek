@@ -3,8 +3,8 @@ hr.star-primary:after { background-color: transparent; }
 #nabizime .row { margin-top: 25px; margin-bottom: 25px; }
 #reference .row { margin-top: 25px; margin-bottom: 25px; }
 #ke_stazeni .row { margin-top: 35px; margin-bottom: 35px; }
-.portfolio-item h3 { white-space: nowrap; }
+/*.portfolio-item h3 { white-space: nowrap; }*/
 
-#reference h3 { display: inline-block; border: 1px solid #000; border-radius: 25px; padding: 75px 25px 75px 25px; }
+#reference h3 { padding: 75px 25px 75px 25px; }
 
 .list-inline li { margin-right: 25px; }
