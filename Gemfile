@@ -8,4 +8,3 @@ gem 'therubyracer'
 gem 'uglifier'
 gem 'rdiscount'
 #easy_install 'Pygments'
-
