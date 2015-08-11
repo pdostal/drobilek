@@ -7,9 +7,9 @@ host:
 description: Kompletní služby v oboru celní problematiky
 
 color:
-  primary: 05C2FA
-  secondary: 2c3e50
-  secondary-dark: 233140
+  primary: a9a9a9
+  secondary: 696969
+  secondary-dark: 808080
 
 markdown: kramdown
 permalink: pretty
