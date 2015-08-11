@@ -13,3 +13,6 @@ color:
 
 markdown: kramdown
 permalink: pretty
+
+exclude: ["Gemfile*", "README.md", "LICENCE"]
+
